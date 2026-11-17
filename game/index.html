@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOLARA BAY — Open World Crime Game</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; padding: 0; background: #0b1e2e; height: 100%; overflow: hidden; }
+  #wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(180deg, #0b1e2e 0%, #123a4d 100%); }
+  canvas { display: block; background: #f2d8a0; box-shadow: 0 0 60px rgba(0,0,0,.6); image-rendering: auto; }
+  #hint { position: fixed; left: 10px; bottom: 8px; color: #9fc3d4; font: 12px/1.4 system-ui, sans-serif; opacity: .8; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="1280" height="720"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
