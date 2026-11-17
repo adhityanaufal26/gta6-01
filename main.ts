@@ -1,4 +1,4 @@
-// SOLARA BAY — entry program for the gta6-01 open-world game.
+// SOLARA BAY — entry program for the open-world game bounty.
 // Copies game/ and screenshots/ to the output dir and writes dossier.json.
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
